@@ -1,10 +1,5 @@
 import { Container, Swapper } from "./styles";
 
-import outdoor from "./../../assets/outdoor.png";
-import selfcare from "./../../assets/selfcare.png";
-import simulation from "./../../assets/simulation.png";
-import education from "./../../assets/education.png";
-
 import ComponentHeader from "../../components/header";
 import ComponentHeroSection from "../../components/herosection";
 import ComponentAboutSection from "../../components/aboutsection";
