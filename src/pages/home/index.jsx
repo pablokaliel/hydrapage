@@ -14,19 +14,12 @@ function Home() {
     <Container>
       <Swapper>
         <ComponentHeader />
-
         <ComponentHeroSection />
-
         <ComponentAboutSection />
-
         <ComponentCardSection />
-
         <ComponentTechnologieSection />
-
         <ComponentProgressSection />
-
         <ComponentFormSection />
-
         <ComponentFooterSection />
       </Swapper>
     </Container>

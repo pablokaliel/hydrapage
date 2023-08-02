@@ -1,6 +1,4 @@
-<h1 align="center"> Platform IA </h1>
-
-
+<h1 align="center"> Hydra Page </h1>
 
 <p align="center">
 O desafio é criar a tela de uma página Hydra, o desafio consiste em replicar o Layout da landing page. <br/>
