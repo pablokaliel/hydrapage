@@ -83,7 +83,6 @@ function ComponentFooterSection() {
       <DividerFooter />
 
       <p>2023 © HYDRA LANDING PAGE - BY PABLOKALYELL. - ALL RIGHTS RESERVED </p>
-
     </FooterSection>
   );
 }

@@ -1,4 +1,4 @@
-import { AboutSection, Right, Left, DivIntroduction, DivImage, DivWhy, RightAbout } from "./styles";
+import { AboutSection, Right, Left, SpanMobile, DivIntroduction, DivImage, DivWhy, RightAbout } from "./styles";
 
 import menglass from "./../../assets/menglass.png";
 import arrowbig from "./../../assets/arrow-big-right.svg";
@@ -18,7 +18,20 @@ function ComponentAboutSection() {
         <DivImage>
           <img src={menglass} />
         </DivImage>
-        
+
+        <SpanMobile>
+          Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis
+          rhoncus urna neque viverra justo. Vivamus at augue eget arcu dictum.
+          Ultrices gravida dictum fusce ut placerat orci. Aenean et tortor at
+          risus viverra adipisci ng at in. Mattis aliquam faucibus purus in
+          massa. Est placerat in egestas erat imperdiet sed. Consequat sem per
+          viverra nam libero justo laoreet sit amet. Aliquam etiam erat velit
+          scelerisque in dictum non consectetur a. Laoreet sit amet cursus sit
+          amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pharetra
+          diam sit amet nisl suscipit adipiscing bibendum. Leo a diam
+          sollicitudin tempor.
+        </SpanMobile>
+
         <DivWhy>
           <div>
             <h1>Introduction</h1>
@@ -76,7 +89,7 @@ function ComponentAboutSection() {
             deserunt quas explicabo praesentium temporibus voluptates. Nesciunt,
             quo quod!
           </span>
-          
+
           <button>LETS GETH TOUCH</button>
         </RightAbout>
         <span>

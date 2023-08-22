@@ -43,7 +43,7 @@ function ComponentHeroSection() {
       </DivBuild>
 
       <DivContact>
-        <Contact>
+        <Contact className="visible">
           <img src={location} />
           <div>
             <h1>Pay us a Visit</h1>

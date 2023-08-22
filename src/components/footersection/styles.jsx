@@ -16,6 +16,10 @@ export const Logo = styled.img``;
 export const Footer = styled.div`
   display: flex;
 
+  @media (max-width: 770px) {
+    display: block;
+  }
+
   .negative {
     top: -130px;
   }
@@ -24,15 +28,26 @@ export const Footer = styled.div`
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100%;
+
+    @media (max-width: 770px) {
+      position: sticky;
+    }
 
     z-index: -1;
   }
 `;
 
 export const DivLogoFooter = styled.div`
-  border-right: 6px solid #8176af;
   flex: 1;
+
+  border-right: 6px solid #8176af;
+
+  @media (max-width: 770px) {
+    border: 0;
+    order: 1;
+  }
 
   img {
     width: 185px;
@@ -42,8 +57,13 @@ export const DivLogoFooter = styled.div`
 
 export const DivInfoHydra = styled.div`
   border-right: 6px solid #8176af;
+
   padding: 0px 60px;
   flex: 1;
+
+  @media (max-width: 770px) {
+    display: none;
+  }
 
   ul {
     font-size: 16px;
@@ -64,6 +84,10 @@ export const DivInfoHydra = styled.div`
         font-weight: 700;
         list-style: none;
         color: #fff;
+        transition: all 0.3s;
+        &:hover {
+          color: #af6bd5;
+        }
 
         text-decoration: none;
       }
@@ -73,6 +97,11 @@ export const DivInfoHydra = styled.div`
 
 export const DivFAQ = styled.div`
   border-right: 6px solid #8176af;
+
+  @media (max-width: 770px) {
+    display: none;
+  }
+
   padding: 0px 60px;
   flex: 1;
 
@@ -106,6 +135,10 @@ export const DivSocial = styled.div`
   display: flex;
   flex-direction: column;
 
+  @media (max-width: 770px) {
+    align-items: center;
+  }
+
   padding: 0px 60px;
   gap: 40px;
 
@@ -129,6 +162,7 @@ export const DivSocial = styled.div`
 export const DividerFooter = styled.div`
   height: 2px;
   width: 100%;
+
   margin: 70px 0px;
 
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
@@ -148,11 +182,14 @@ export const Icon = styled.a`
   height: 32px;
 
   text-decoration: none;
+
   border-radius: 100%;
   background-color: #c0b7e8;
+
   transition: all 0.3s;
 
   &:hover {
     background-color: #8176af;
+    scale:1.1;
   }
 `;

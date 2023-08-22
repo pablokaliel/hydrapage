@@ -8,4 +8,11 @@ export const Container = styled.div`
 export const Swapper = styled.div`
   padding: 50px 84px;
   height: 100%;
+
+  @media (max-width: 770px) {
+
+
+    padding: 0px 8px;
+
+  }
 `;

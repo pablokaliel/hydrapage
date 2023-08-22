@@ -15,8 +15,13 @@ export const DivForm = styled.div`
 
   gap: 30px;
   padding: 100px;
-
+  
   width: 1275px;
+
+  @media (max-width: 770px) {
+    width: 100%;
+    padding: 10px 8px;
+  }
 
   border-radius: 100px;
   background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
@@ -44,12 +49,21 @@ export const DividerForm = styled.div`
   height: 1px;
 
   background-color: rgba(192, 183, 232, 0.33);
+
+  @media (max-width: 770px) {
+    width: 100%;
+  }
 `;
 
 export const Form = styled.div`
   display: flex;
   flex-direction: column;
   gap: 33px;
+
+  @media (max-width: 770px) {
+    width: 100%;
+    padding: 0px 12px;
+  }
 
   .inputs {
     display: flex;
@@ -63,6 +77,7 @@ export const Form = styled.div`
 
       background: transparent;
       color: #fff;
+
       padding: 0 40px;
 
       font-size: 14px;
@@ -80,9 +95,18 @@ export const DivName = styled.div`
 
   gap: 12px;
 
+  @media (max-width: 770px) {
+    flex-direction: column;
+    width: 100%;
+  }
+
   div {
     width: 524px;
     height: 72px;
+
+    @media (max-width: 770px) {
+      width: 100%;
+    }
 
     border-radius: 40px;
     border: 2px solid #fff;
@@ -109,9 +133,17 @@ export const DivInfo = styled.div`
   display: flex;
   gap: 12px;
 
+  @media (max-width: 770px) {
+    flex-direction: column;
+  }
+
   div {
     width: 524px;
     height: 72px;
+
+    @media (max-width: 770px) {
+      width: 100%;
+    }
 
     border-radius: 40px;
     border: 2px solid #fff;
